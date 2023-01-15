@@ -8,43 +8,43 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.navigationdrawer.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.navigationdrawer.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.navigationdrawer.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/paymentmethod"
         android:name="com.example.navigationdrawer.paymentmethod"
-        android:label="fragment_paymentmethod"
+
         tools:layout="@layout/fragment_paymentmethod" />
     <fragment
         android:id="@+id/promo_cord2"
         android:name="com.example.navigationdrawer.promo_cord"
-        android:label="fragment_promo_cord"
+
         tools:layout="@layout/fragment_promo_cord" />
     <fragment
         android:id="@+id/notification2"
         android:name="com.example.navigationdrawer.notification"
-        android:label="fragment_notification"
+
         tools:layout="@layout/fragment_notification" />
     <fragment
         android:id="@+id/help2"
         android:name="com.example.navigationdrawer.help"
-        android:label="fragment_help"
+
         tools:layout="@layout/fragment_help" />
     <fragment
         android:id="@+id/about2"
         android:name="com.example.navigationdrawer.about"
-        android:label="fragment_about"
+
         tools:layout="@layout/fragment_about" />
 </navigation>
